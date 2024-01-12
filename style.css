@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;  
+}
+
+.main{
+    background-color:hsl(230, 17%, 14%);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    width: 1440px;
+    height: 100%;
+   
+}
+.navbar{
+    display: flex;
+    background-color:hsl(232, 19%, 15%);
+    height: 30vh;
+    justify-content: space-between;
+    padding: 40px 100px 20px 100px;
+    
+    
+}
+
+.logo p{
+    color:hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+.logo h1{
+    color: hsl(0, 0%, 100%);
+}
+.mode{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    color: hsl(228, 12%, 44%);
+}
+
+.mode > .dark{
+    color: hsl(228, 12%, 44%);
+    font-weight: bold;
+}
+.rounded-toggle {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  .rounded-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 15px; /* half of the height for rounded effect */
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 2px; /* Adjusted to center vertically in the rounded area */
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+
+.row1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -130px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 20px;
+    height: 40vh;
+   
+}
+
+.row1 > .row01{
+    width: 25%;
+    background-color: hsl(228, 28%, 20%);
+    height: 80%;
+    border-radius:10px; 
+    border-top:  4px solid hsl(208, 92%, 53%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-top{
+    /* background-color:; */
+    height: px;
+    width: 25%;
+    border-radius: 8px 8px 0 0;
+}
+.card-fb{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.row1 > .row02{
+    width: 25%;
+    background-color: hsl(228, 28%, 20%);
+    height: 80%;
+    border-radius: 10px;
+    border-top: 4px solid hsl(203, 89%, 53%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.row1 > .row03{
+    width: 25%;
+    background-color: hsl(228, 28%, 20%);;
+    height: 80%;
+    border-radius: 10px;
+    border-top: 4px solid hsl(329, 70%, 58%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.row1 > .row04{
+    width: 25%;
+    background-color: hsl(228, 28%, 20%);;
+    height: 80%;
+    border-radius: 10px;
+    border-top: 4px solid hsl(348, 97%, 39%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#h4 {
+    color:hsl(0, 0%, 100%) ;
+}
+
+h2{
+    padding-left: 100px;
+    margin-top: 30px;
+    color:hsl(0, 0%, 100%);
+}
+#like{
+    font-size: 45px;
+    font-weight: bolder;
+    color: hsl(0, 0%, 100%);
+}
+#follow{
+    color: hsl(228, 12%, 44%);
+    font-size: 15x;
+}
+#green{
+    color: hsl(163, 72%, 41%);
+    font-weight: bold;
+}
+#Red{
+    color: hsl(356, 69%, 56%);
+    font-weight: bold;
+}
+.overview {
+    /* padding: 20px 100px 20px 100px; */
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 40px;
+    
+}
+
+.one{
+    display: flex;
+    gap: 20px;
+    
+
+}
+.row11{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: hsl(228, 28%, 20%);
+    height: 20vh;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
+    
+
+}
+.face{
+    display: flex;
+    justify-content: space-between;
+}
+.face p{
+    color: hsl(228, 12%, 44%);
+}
+.view{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview2{
+    margin-top: 20px;
+}
+.two{
+    display: flex;
+    gap: 20px;
+}
+#number{
+    font-size: 30px;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+}
+.title {
+    color: hsl(0, 0%, 100%);
+}
+.p {
+    color: hsl(0, 0%, 100%);
+}
